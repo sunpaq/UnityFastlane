@@ -1,0 +1,35 @@
+
+
+default_platform(:ios)
+
+path = File.expand_path(File.dirname(__FILE__))+"/../../../"
+projpath = path+"output/ios_adhoc/Unity-iPhone.xcodeproj"
+unitypath = "/Applications/Unity/Unity.app/Contents/MacOS/Unity"
+
+platform :ios do
+
+	lane :adhoc do
+	    sh("'#{unitypath}' -batchmode -quit -logFile ./build.log -projectPath '#{path}' -buildTarget ios -executeMethod BuildProject.BuildIOSAdhoc")
+	    gym(project: projpath)
+	end
+
+	lane :store do
+	    sh("'#{unitypath}' -batchmode -quit -logFile ./build.log -projectPath '#{path}' -buildTarget ios -executeMethod BuildProject.BuildIOSStore")
+	    gym(project: projpath)
+	end
+
+end
+
+platform :android do
+
+	lane :adhoc do
+	    sh("'#{unitypath}' -batchmode -quit -logFile ./build.log -projectPath '#{path}' -buildTarget android -executeMethod BuildProject.BuildAndroidAdhoc")
+	end
+
+	lane :store do
+	    sh("'#{unitypath}' -batchmode -quit -logFile ./build.log -projectPath '#{path}' -buildTarget android -executeMethod BuildProject.BuildAndroidAdhoc")
+	end
+
+end
+
+

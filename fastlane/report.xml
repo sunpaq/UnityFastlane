@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.005643">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: '/Applications/Unity/Unity.app/Contents/MacOS/Unity' -batchmode -quit -logFile ./build.log -projectPath '/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Assets/Build/fastlane/../../../' -buildTarget android -executeMethod BuildProject.BuildAndroidAdhoc" time="38.436773">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
