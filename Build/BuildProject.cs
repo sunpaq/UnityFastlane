@@ -17,16 +17,25 @@ public class BuildProject : MonoBehaviour {
 		UnityEngine.Debug.Log (str);
 	}
 
+	static void runBash(string command, string workdir){
+		try {
+			ShellHelper.ShellRequest req = ShellHelper.ProcessCommand(command, workdir);
+			req.onLog += delegate(int logType, string log) {
+				debugLog(log);
+			};
+			req.onDone += delegate {
+				debugLog("command finished");
+			};
+		} catch(IOException e) {
+			debugLog("please ignore the exception and wait until xcarchive done");
+		}
+	}
+
 	static void runCMD(string cmd) {
 		Process.Start (@"cmd", "/c " + cmd);
 	}
-	/*
-	static string[] scenes = new [] { 
-		"Assets/Scene/main.unity" 
-	};
-	*/
 
-	static string firstSceneName = "Assets/Scenes/UI/Splash.unity";
+	static string firstSceneName = "Assets/Scenes/main.unity";
 
 	static string[] findAllScenes() {
 		string folderName = Application.dataPath + "/" + scenePath;
@@ -54,12 +63,24 @@ public class BuildProject : MonoBehaviour {
 
 	[MenuItem("Build/iOS/adhoc")]
 	public static void BuildIOSAdhoc() {
+		var rootdir = Directory.GetCurrentDirectory ();
+		var outpath = Path.Combine (rootdir, outputPath);
+		var projpath = Path.Combine (outpath, "ios_adhoc/Unity-iPhone.xcodeproj");
+		var archpath = Path.Combine (outpath, "ios_adhoc/Unity-iPhone.xcarchive");
+
 		BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
 		buildPlayerOptions.scenes = findAllScenes();
 		buildPlayerOptions.locationPathName = outputPath + "/ios_adhoc";
 		buildPlayerOptions.target = BuildTarget.iOS;
 		buildPlayerOptions.options = BuildOptions.None;
 		BuildPipeline.BuildPlayer(buildPlayerOptions);
+
+		var dir = outpath+"/ios_adhoc";
+		var cmd = "xcodebuild -scheme Unity-iPhone archive -archivePath Unity-iPhone.xcarchive CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=''";
+		debugLog("command dir: " + dir);
+		debugLog("command: " + cmd);
+		runBash(cmd, dir);
+		debugLog("please ignore the exception and wait until xcarchive generated");
 	}
 
 	[MenuItem("Build/iOS/store")]
