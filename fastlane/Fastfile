@@ -7,7 +7,7 @@ xcode_path = output_path + "/Xcode"
 
 def unityExecute(path, exe)
 unitypath = "/Applications/Unity/Unity.app/Contents/MacOS/Unity"
-sh("'#{unitypath}' -batchmode -quit \
+sh("'#{unitypath}' --new -batchmode -quit \
 -logFile ./build.log \
 -projectPath '#{path}' \
 -buildTarget ios \

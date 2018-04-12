@@ -10,6 +10,9 @@
 
 ### how to use:
 
+	please close the Unity before run fastlane
+	otherwise Unity command line will report error
+
 	cd '<UnityProjectRoot>'
 	fastlane ios nosign
 
