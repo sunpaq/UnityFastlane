@@ -1,9 +1,16 @@
 # UnityFastlane
 
-### two ways to use:
+### how to setup:
 
-1. place the Build folder under Assets folder
+	1. place the 'Build' folder under '<UnityProjectRoot>/Assets/Editor'
 
-2. place the BuildProject.cs script into your Editor menu extension folder place the fastlane folder into project root
+	2. place the 'fastlane' folder under '<UnityProjectRoot>'
 
-    please take a look at the scripts content and change the paths and folder names according to your own project
+	3. add 'Output/' to your .gitignore
+
+### how to use:
+
+	cd '<UnityProjectRoot>'
+	fastlane ios nosign
+
+	for more details please refer to the Unity and fastlane official docs

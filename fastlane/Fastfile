@@ -1,7 +1,7 @@
 
 default_platform(:ios)
 
-root_path = File.expand_path(File.dirname(__FILE__))+"/../../../"
+root_path = File.expand_path(File.dirname(__FILE__))+"/../"
 output_path = root_path + "Output"
 xcode_path = output_path + "/Xcode"
 
