@@ -1,8 +1,8 @@
 
-LICENSE SYSTEM [201843 0:11:16] Next license update check is after 2018-04-03T13:41:29
+LICENSE SYSTEM [2018412 15:31:27] Next license update check is after 2018-04-13T05:02:58
 
 DisplayProgressbar: Unity license
-[Package Manager] Server::Start -- Port 64081 was selected
+[Package Manager] Server::Start -- Port 64410 was selected
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
@@ -13,17 +13,17 @@ DisplayProgressbar: Unity license
 -projectPath
 /Users/sunyuli/Dev/UnityProjects/LearnUnity01/Assets/Build/fastlane/../../../
 -buildTarget
-android
+ios
 -executeMethod
-BuildProject.BuildAndroidAdhoc
+BuildProject.BuildIOS
 Successfully changed project path to: /Users/sunyuli/Dev/UnityProjects/LearnUnity01/Assets/Build/fastlane/../../../
 /Users/sunyuli/Dev/UnityProjects/LearnUnity01
-Loading GUID <-> Path mappings...0.000562 seconds
-Loading Asset Database...0.071620 seconds
+Loading GUID <-> Path mappings...0.000077 seconds
+Loading Asset Database...0.009167 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.154462 seconds
-Targeting platform: android
-Refreshing native plugins compatible for Editor in 61.64 ms, found 1 plugins.
+AssetDatabase consistency checks...0.058508 seconds
+Targeting platform: ios
+Refreshing native plugins compatible for Editor in 8.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Resolving 3 packages:
@@ -42,48 +42,430 @@ Version:  4.1 INTEL-10.32.48
 GLES:     0
  GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_fl
 ush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
-OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 252434432
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 268938240
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0'
 Mono config path = '/Applications/Unity/Unity.app/Contents/Mono/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56783
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56868
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2017.2.1 for Unity v2017.2.1p2
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.010174 seconds.
-Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 13.15 ms.
+Registered in 0.000766 seconds.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.46 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.247 seconds
+- Completed reload, in  0.761 seconds
 Registering platform support modules:
-Registered platform support modules in: 0.144912s.
+Registered platform support modules in: 0.110705s.
 Native extension for OSXStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Begin MonoManager ReloadAssembly
 Registering precompiled user dll's ...
-Registered in 0.025435 seconds.
-Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
+Registered in 0.008333 seconds.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
+- Completed reload, in  0.620 seconds
 Initializing Unity.PackageManager (PackageManager) v2017.2.1 for Unity v2017.2.1p2
 Registering platform support modules:
-Registered platform support modules in: 0.061646s.
+Registered platform support modules in: 0.051394s.
 Native extension for OSXStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
+Validating Project structure ... 0.000560 seconds.
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (8 files)
+  file read: 0.000 seconds (0.009 MB)
+  hash: 0.000 seconds
+----- Compute hash(es) for 4 asset(s).
+----- Asset named Assets/Build/fastlane/README.md is skipped as no actual change.
+
+Refresh: elapses 0.052333 seconds
+Updating Assets/Build/fastlane/Fastfile - GUID: bdf464c090f654ae28abc902a6d4f9bc...
+ done. [Time: 36.561165 ms] 
+Unloading 114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.9 MB.
+System memory in use after: 195.0 MB.
+
+Unloading 143 unused Assets to reduce memory usage. Loaded Objects now: 773.
+Total: 1.336243 ms (FindLiveObjects: 0.119864 ms CreateObjectMapping: 0.033063 ms MarkObjects: 1.131427 ms  DeleteObjects: 0.039715 ms)
+
+Updating Assets/Build/fastlane/build.log - GUID: c768f07810bbb427eb4df9c23a529ba3...
+ done. [Time: 47.279929 ms] 
+Updating Assets/Build/fastlane/report.xml - GUID: 073d45120de6b4949b3bde62226f38b7...
+ done. [Time: 2.399965 ms] 
+Refreshing native plugins compatible for Editor in 16.33 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+
+----- Total AssetImport time: 0.244225s, AssetImport time: 0.179514s, Asset hashing: 0.000377s [9.4 KB, 24.338877 mb/s]
+
+Warming cache for 142 main assets: 0.000243 seconds elapsed
+Initializing Unity extensions:
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'  GUID: c768acbc9cf24d398488bb4c93b91288
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.7 MB.
+System memory in use after: 200.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 825.
+Total: 0.947761 ms (FindLiveObjects: 0.106058 ms CreateObjectMapping: 0.022918 ms MarkObjects: 0.805122 ms  DeleteObjects: 0.012740 ms)
+
+find scene: /Users/sunyuli/Dev/UnityProjects/LearnUnity01/Assets/Scenes/main.unity
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BuildProject:debugLog(String) (at Assets/Build/BuildProject.cs:17)
+BuildProject:findAllScenes() (at Assets/Build/BuildProject.cs:51)
+BuildProject:BuildIOS() (at Assets/Build/BuildProject.cs:67)
+ 
+(Filename: Assets/Build/BuildProject.cs Line: 17)
+
+BuildPlayer: start building target 9
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 0 milliseconds
+Pass: 1 took 0 milliseconds
+DisplayProgressbar: Building Player
+
+Packing sprites:
+[     37 MB ]- Skipping packing - Sprite Packer (Legacy) is off.
+[     37 MB ]Opening scene 'Assets/Scenes/main.unity'
+Load scene 'Assets/Scenes/main.unity' time: 0.026796 ms 
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7000074ca000 -> priority: 1 
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.9 MB.
+System memory in use after: 232.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2838.
+Total: 10.908593 ms (FindLiveObjects: 0.455845 ms CreateObjectMapping: 0.110569 ms MarkObjects: 9.403003 ms  DeleteObjects: 0.937784 ms)
+
+[00:00:00] Enlighten: Precompute started.
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.12s wallclock)
+[00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: Precompute took 0.137764 seconds.
+Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+[00:00:00] Enlighten: Bake started.
+[PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
+[PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
+[00:00:00] Enlighten: Finished 1 Bake Runtime job (0.02s execute, 0.00s integrate, 0.03s wallclock)
+[00:00:00] Enlighten: Bake took 0.033364 seconds.
+[PathTracer] Lightmap reset.
+[PathTracer][LP] Light probes reset.
+[PathTracer] building lightmap data asset.
+[00:00:00] Enlighten: Reflection Probes started.
+[00:00:00] Enlighten: Finished 1 Ambient Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: Finished 1 Reflection Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+Opening scene 'Assets/Scenes/main.unity'
+Load scene 'Assets/Scenes/main.unity' time: 0.012927 ms 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.1 MB.
+System memory in use after: 234.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2840.
+Total: 8.312090 ms (FindLiveObjects: 0.317193 ms CreateObjectMapping: 0.038236 ms MarkObjects: 7.184753 ms  DeleteObjects: 0.770484 ms)
+
+[00:00:00] Enlighten: Precompute started.
+[PathTracer] building lightmap data asset.
+[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: Precompute took 0.016346 seconds.
+Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+
+
+Mono dependencies included in the build
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - UnityEngine.Networking.dll
+Dependency assembly - UnityEngine.Timeline.dll
+Dependency assembly - UnityEngine.SpatialTracking.dll
+Dependency assembly - Assembly-CSharp.dll
+
+DisplayProgressbar: Fetching assembly references
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.6 MB.
+System memory in use after: 237.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2826.
+Total: 8.720477 ms (FindLiveObjects: 0.276638 ms CreateObjectMapping: 0.040587 ms MarkObjects: 8.367408 ms  DeleteObjects: 0.034679 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.5 MB.
+System memory in use after: 237.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2838.
+Total: 8.725454 ms (FindLiveObjects: 0.391941 ms CreateObjectMapping: 0.065819 ms MarkObjects: 8.259341 ms  DeleteObjects: 0.006766 ms)
+
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.0 MB.
+System memory in use after: 237.9 MB.
+
+Unloading 138 unused Assets to reduce memory usage. Loaded Objects now: 2825.
+Total: 25.027122 ms (FindLiveObjects: 0.435745 ms CreateObjectMapping: 0.054056 ms MarkObjects: 8.017485 ms  DeleteObjects: 16.518020 ms)
+
+DisplayProgressbar: Building Player
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Don't forget to change iPhoneBundleIdentifier in the Player Settings before submitting to the App Store.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEditor.iOS.PostProcessiPhonePlayer:CheckIOSBundleIdentifier(String, BuildSettings) (at /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/BuildPostProcessor.cs:1988)
+UnityEditor.iOS.PostProcessiPhonePlayer:SetupBuildSettings(PostProcessorSettings, BuildPostProcessArgs) (at /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/BuildPostProcessor.cs:468)
+UnityEditor.iOS.PostProcessiPhonePlayer:PostProcess(PostProcessorSettings, BuildPostProcessArgs) (at /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/BuildPostProcessor.cs:557)
+UnityEditor.iOS.iOSBuildPostprocessor:PostProcess(BuildPostProcessArgs) (at /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/ExtensionModule.cs:37)
+UnityEditor.PostprocessBuildPlayer:Postprocess(BuildTargetGroup, BuildTarget, String, String, String, Int32, Int32, BuildOptions, RuntimeClassRegistry, BuildReport) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/PostprocessBuildPlayer.cs:271)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:337)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:234)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:212)
+BuildProject:BuildIOS() (at Assets/Build/BuildProject.cs:71)
+ 
+(Filename: /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/BuildPostProcessor.cs Line: 1988)
+
+DisplayProgressbar: Fetching assembly references
+DisplayProgressbar: Building Player
+Invoking UnityLinker with arguments: --api=NET_2_0_Subset -out="/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed/tempStrip" -l=none -c=link --link-symbols -x="/Applications/Unity/PlaybackEngines/iOSSupport/Whitelists/Core.xml" -f="/Applications/Unity/Unity.app/Contents/il2cpp/LinkerDescriptors" -x "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed/../platform_native_link.xml" -x "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/methods_pointedto_by_uievents.xml" -x "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/UnityEngine.xml" -x "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/preserved_derived_types.xml" -d "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed" -a  "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll"
+/Applications/Unity/Unity.app/Contents/il2cpp/build/UnityLinker.exe exited after 1174 ms.
+/Applications/Unity/Unity.app/Contents/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe exited after 191 ms.
+DisplayProgressbar: Fetching assembly references
+DisplayProgressbar: Building Player
+Invoking UnityLinker with arguments: --api=NET_2_0_Subset -out="/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed/tempStrip" -l=none -c=link --link-symbols -x="/Applications/Unity/PlaybackEngines/iOSSupport/Whitelists/Core.xml" -f="/Applications/Unity/Unity.app/Contents/il2cpp/LinkerDescriptors" -x "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed/../platform_native_link.xml" -x "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/methods_pointedto_by_uievents.xml" -x "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/UnityEngine.xml" -x "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/preserved_derived_types.xml" -x "/Applications/Unity/PlaybackEngines/iOSSupport/Whitelists/Audio.xml" -x "/Applications/Unity/PlaybackEngines/iOSSupport/Whitelists/UnityConnect.xml" -x "/Applications/Unity/PlaybackEngines/iOSSupport/Whitelists/GameCenter.xml" -x "/Applications/Unity/PlaybackEngines/iOSSupport/Whitelists/UnityWebRequest.xml" -x "/Applications/Unity/PlaybackEngines/iOSSupport/Whitelists/JSONSerialize.xml" -x "/Applications/Unity/PlaybackEngines/iOSSupport/Whitelists/ImageConversion.xml" -d "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed" -a  "/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll"
+/Applications/Unity/Unity.app/Contents/il2cpp/build/UnityLinker.exe exited after 1173 ms.
+/Applications/Unity/Unity.app/Contents/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe exited after 193 ms.
+DisplayProgressbar: Fetching assembly references
+DisplayProgressbar: Building Player
+Invoking il2cpp with arguments: --convert-to-cpp --emit-null-checks --enable-array-bounds-check --map-file-parser="/Applications/Unity/Unity.app/Contents/Tools/MapFileParser/MapFileParser" --assembly="/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll" --assembly="/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/StagingArea/Data/Managed/UnityEngine.dll" --generatedcppdir="/Users/sunyuli/Dev/UnityProjects/LearnUnity01/Temp/il2cppOutput/il2cppOutput" 
+/Applications/Unity/Unity.app/Contents/il2cpp/build/il2cpp.exe exited after 6610 ms.
+Splash screen images not provided: Mobile Splash Screen*, iPhone 3.5''/Retina, iPhone 4''/Retina, iPhone 4.7''/Retina, iPhone 5.5''/Retina, iPhone 5.5'' Landscape/Retina, iPhone X /Retina, iPhone X Landscape/Retina, iPad Portrait, iPad Landscape, iPad Portrait/Retina, iPad Landscape/Retina
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEditor.iOS.PostProcessiPhonePlayer:WarnAboutMissingSplashscreens(ProjectPaths, BuildSettings) (at /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/BuildPostProcessor.cs:1454)
+UnityEditor.iOS.PostProcessiPhonePlayer:UpdateInstallLocation(ProjectPaths, BuildSettings, IncludedFileList) (at /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/BuildPostProcessor.cs:1330)
+UnityEditor.iOS.PostProcessiPhonePlayer:PostProcess(BuildSettings, ProjectPaths, RuntimeClassRegistry, BuildReport) (at /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/BuildPostProcessor.cs:702)
+UnityEditor.iOS.PostProcessiPhonePlayer:PostProcess(PostProcessorSettings, BuildPostProcessArgs) (at /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/BuildPostProcessor.cs:568)
+UnityEditor.iOS.iOSBuildPostprocessor:PostProcess(BuildPostProcessArgs) (at /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/ExtensionModule.cs:37)
+UnityEditor.PostprocessBuildPlayer:Postprocess(BuildTargetGroup, BuildTarget, String, String, String, Int32, Int32, BuildOptions, RuntimeClassRegistry, BuildReport) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/PostprocessBuildPlayer.cs:271)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:337)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:234)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:212)
+BuildProject:BuildIOS() (at Assets/Build/BuildProject.cs:71)
+ 
+(Filename: /Users/builduser/buildslave/unity/build/PlatformDependent/iPhonePlayer/Extensions/Common/BuildPostProcessor.cs Line: 1454)
+
+xCode Project /Users/sunyuli/Dev/UnityProjects/LearnUnity01/Output/Xcode/Unity-iPhone.xcodeproj
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Vuforia.EditorClasses.PostProcessBuildPlayer:OnPostprocessBuild(BuildTarget, String)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.Build.AttributeCallbackWrapper:OnPostprocessBuild(BuildTarget, String) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:85)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPostProcess(BuildTarget, String, Boolean) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:265)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:337)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:234)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:212)
+BuildProject:BuildIOS() (at Assets/Build/BuildProject.cs:71)
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs Line: 222)
+
+Adding build file Security.framework
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Vuforia.EditorClasses.PostProcessBuildPlayer:AddBuildFile(StreamWriter, Framework)
+Vuforia.EditorClasses.PostProcessBuildPlayer:ProcessPbxProj(String, Framework[], ResFile[])
+Vuforia.EditorClasses.PostProcessBuildPlayer:OnPostprocessBuild(BuildTarget, String)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.Build.AttributeCallbackWrapper:OnPostprocessBuild(BuildTarget, String) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:85)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPostProcess(BuildTarget, String, Boolean) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:265)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:337)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:234)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:212)
+BuildProject:BuildIOS() (at Assets/Build/BuildProject.cs:71)
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs Line: 222)
+
+Adding framework file reference Security.framework
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Vuforia.EditorClasses.PostProcessBuildPlayer:AddFrameworkFileReference(StreamWriter, Framework)
+Vuforia.EditorClasses.PostProcessBuildPlayer:ProcessPbxProj(String, Framework[], ResFile[])
+Vuforia.EditorClasses.PostProcessBuildPlayer:OnPostprocessBuild(BuildTarget, String)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.Build.AttributeCallbackWrapper:OnPostprocessBuild(BuildTarget, String) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:85)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPostProcess(BuildTarget, String, Boolean) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:265)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:337)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:234)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:212)
+BuildProject:BuildIOS() (at Assets/Build/BuildProject.cs:71)
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs Line: 222)
+
+Adding build phase Security.framework
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Vuforia.EditorClasses.PostProcessBuildPlayer:AddFrameworksBuildPhase(StreamWriter, Framework)
+Vuforia.EditorClasses.PostProcessBuildPlayer:ProcessPbxProj(String, Framework[], ResFile[])
+Vuforia.EditorClasses.PostProcessBuildPlayer:OnPostprocessBuild(BuildTarget, String)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.Build.AttributeCallbackWrapper:OnPostprocessBuild(BuildTarget, String) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:85)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPostProcess(BuildTarget, String, Boolean) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:265)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:337)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:234)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:212)
+BuildProject:BuildIOS() (at Assets/Build/BuildProject.cs:71)
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs Line: 222)
+
+Add group Security.framework
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Vuforia.EditorClasses.PostProcessBuildPlayer:AddGroup(StreamWriter, Framework)
+Vuforia.EditorClasses.PostProcessBuildPlayer:ProcessPbxProj(String, Framework[], ResFile[])
+Vuforia.EditorClasses.PostProcessBuildPlayer:OnPostprocessBuild(BuildTarget, String)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+System.Reflection.MethodBase:Invoke(Object, Object[]) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.Build.AttributeCallbackWrapper:OnPostprocessBuild(BuildTarget, String) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:85)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPostProcess(BuildTarget, String, Boolean) (at /Users/builduser/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:265)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:337)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:234)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at /Users/builduser/buildslave/unity/build/artifacts/generated/common/editor/BuildPipelineBindings.gen.cs:212)
+BuildProject:BuildIOS() (at Assets/Build/BuildProject.cs:71)
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs Line: 222)
+
+
+-------------------------------------------------------------------------------
+Build Report
+Uncompressed usage by category:
+Textures      0.0 kb	 0.0% 
+Meshes        0.0 kb	 0.0% 
+Animations    0.0 kb	 0.0% 
+Sounds        0.0 kb	 0.0% 
+Shaders       15.6 kb	 0.3% 
+Other Assets  1.2 kb	 0.0% 
+Levels        10.6 kb	 0.2% 
+Scripts       621.3 kb	 13.1% 
+Included DLLs 3.9 mb	 84.8% 
+File headers  15.8 kb	 0.3% 
+Complete size 4.6 mb	 100.0% 
+
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 16.2 kb	 0.3% Resources/unity_builtin_extra
+ 4.1 kb	 0.1% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+ 4.1 kb	 0.1% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+ 3.8 kb	 0.1% /Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/iOS/Vuforia.UnityExtensions.dll
+ 3.8 kb	 0.1% /Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/WindowsStoreApps/Vuforia.UnityExtensions.dll
+ 3.8 kb	 0.1% /Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll
+ 3.8 kb	 0.1% /Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/Android/Vuforia.UnityExtensions.dll
+ 1.8 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+ 1.8 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll
+ 1.5 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
+ 1.5 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
+ 0.7 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+ 0.7 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll
+ 0.4 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+ 0.3 kb	 0.0% Packages/com.unity.ads@1.0.7/UnityEngine.Advertisements.dll
+ 0.1 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
+ 0.1 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll
+ 0.1 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
+ 0.1 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll
+ 0.1 kb	 0.0% Packages/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll
+ 0.1 kb	 0.0% Assets/Build/ShellHelper.cs
+ 0.1 kb	 0.0% Assets/Build/BuildProject.cs
+-------------------------------------------------------------------------------
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.2 MB.
+System memory in use after: 242.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2840.
+Total: 11.275586 ms (FindLiveObjects: 0.430637 ms CreateObjectMapping: 0.132229 ms MarkObjects: 9.577134 ms  DeleteObjects: 1.134276 ms)
+
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.026733 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[00:00:00] Enlighten: Reflection Probes took 14.795188 seconds. Cancelled, so not done yet.
+System memory in use before: 241.8 MB.
+System memory in use after: 242.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2830.
+Total: 7.841130 ms (FindLiveObjects: 0.273222 ms CreateObjectMapping: 0.039326 ms MarkObjects: 7.516687 ms  DeleteObjects: 0.010697 ms)
+
+
+*** Completed 'Build.Player.iOSSupport' in 16 seconds (16472 ms)
+
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 
 -----Compiler Commandline Arguments:
 Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
-Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-28493726859db4d40bdebc27e7ea5fe1
+Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-2c927a5e42a9947079afb5fe4c86f467
 index: 81
-Responsefile: Temp/UnityTempFile-28493726859db4d40bdebc27e7ea5fe1 Contents: 
+Responsefile: Temp/UnityTempFile-2c927a5e42a9947079afb5fe4c86f467 Contents: 
 -debug
 -target:library
 -nowarn:0169
@@ -180,7 +562,6 @@ Responsefile: Temp/UnityTempFile-28493726859db4d40bdebc27e7ea5fe1 Contents:
 -define:ENABLE_WWW
 -define:ENABLE_CLOUD_SERVICES_COLLAB
 -define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
--define:ENABLE_CLOUD_SERVICES_ADS
 -define:ENABLE_CLOUD_HUB
 -define:ENABLE_CLOUD_PROJECT_ID
 -define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
@@ -207,29 +588,40 @@ Responsefile: Temp/UnityTempFile-28493726859db4d40bdebc27e7ea5fe1 Contents:
 -define:ENABLE_PACKMAN
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_STYLE_SHEETS
--define:PLATFORM_ANDROID
--define:UNITY_ANDROID
--define:UNITY_ANDROID_API
--define:ENABLE_SUBSTANCE
--define:ENABLE_EGL
--define:ENABLE_NETWORK
 -define:ENABLE_RUNTIME_GI
--define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_NETWORK
 -define:ENABLE_UNITYWEBREQUEST
 -define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
 -define:ENABLE_CLOUD_SERVICES_ANALYTICS
--define:ENABLE_EVENT_QUEUE
 -define:ENABLE_CLOUD_SERVICES_PURCHASING
 -define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
--define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING
+-define:PLAYERCONNECTION_LISTENS_FIXED_PORT
+-define:DEBUGGER_LISTENS_FIXED_PORT
 -define:PLATFORM_SUPPORTS_ADS_ID
--define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:SUPPORT_ENVIRONMENT_VARIABLES
+-define:PLATFORM_SUPPORTS_PROFILER
+-define:PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR
+-define:STRICTCPP_NEW_DELETE_SIGNATURES
+-define:HAS_NEON_SKINNIG
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:UNITY_INPUT_SIMULATE_EVENTS
+-define:PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG
 -define:ENABLE_VR
 -define:ENABLE_AR
 -define:ENABLE_SPATIALTRACKING
 -define:ENABLE_UNITYADS_RUNTIME
 -define:UNITY_UNITYADS_API
--define:ENABLE_MONO
+-define:PLATFORM_IOS
+-define:UNITY_IOS
+-define:PLATFORM_IPHONE
+-define:UNITY_IPHONE
+-define:UNITY_IPHONE_API
+-define:SUPPORT_MULTIPLE_DISPLAYS
+-define:ENABLE_IL2CPP
 -define:NET_2_0_SUBSET
 -define:ENABLE_PROFILER
 -define:DEBUG
@@ -240,9 +632,11 @@ Responsefile: Temp/UnityTempFile-28493726859db4d40bdebc27e7ea5fe1 Contents:
 -define:UNITY_EDITOR_OSX
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
+-define:ENABLE_IOS_ON_DEMAND_RESOURCES
+-define:ENABLE_IOS_APP_SLICING
 -define:UNITY_HAS_GOOGLEVR
--define:UNITY_HAS_TANGO
-'Assets/EditorExtension/BuildProject.cs'
+'Assets/Build/BuildProject.cs'
+'Assets/Build/ShellHelper.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
@@ -250,402 +644,34 @@ Responsefile: Temp/UnityTempFile-28493726859db4d40bdebc27e7ea5fe1 Contents:
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll'
 -sdk:unity
 
------CompilerOutput:-stdout--exitcode: 1--compilationhadfailure: True--outfile: Temp/Assembly-CSharp.dll
-Compilation failed: 1 error(s), 0 warnings
+-----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp.dll
+Compilation succeeded - 1 warning(s)
 -----CompilerOutput:-stderr----------
-error CS2001: Source file `Assets/EditorExtension/BuildProject.cs' could not be found
+Assets/Build/BuildProject.cs(29,23): warning CS0168: The variable `e' is declared but never used
 -----EndCompilerOutput---------------
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-error CS2001: Source file `Assets/EditorExtension/BuildProject.cs' could not be found
-
-Compilation failed: 1 error(s), 0 warnings
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 3 milliseconds
+Pass: 1 took 4 milliseconds
+Assets/Build/BuildProject.cs(29,23): warning CS0168: The variable `e' is declared but never used
  
-(Filename:  Line: 0)
+(Filename: Assets/Build/BuildProject.cs Line: 29)
 
-Validating Project structure ... 0.000621 seconds.
-Refresh: detecting if any assets need to be imported or removed ... 
-Hashing assets ... 0.004 seconds
-  file open: 0.000 seconds (10 files)
-  file read: 0.003 seconds (0.023 MB)
-  hash: 0.000 seconds
------ Compute hash(es) for 5 asset(s).
-
-*** assets/build/buildproject.cs replaces assets/editorextension/buildproject.cs for guid 81af2011c6b0b4f1fa98659ad80daecf 
-*** 81af2011c6b0b4f1fa98659ad80daecf replaces c93c62edda12540069082f769dc98590 at path assets/build/buildproject.cs 
-*** assets/build/fastlane replaces assets/editorextension/fastlane for guid e7c55b9c8ffb24610b0c0379a48664b7 
-*** assets/build/fastlane/fastfile replaces assets/editorextension/fastlane/fastfile for guid bdf464c090f654ae28abc902a6d4f9bc 
-*** bdf464c090f654ae28abc902a6d4f9bc replaces f6989cad7a6d544fbbfc8d714dc12633 at path assets/build/fastlane/fastfile 
-*** assets/build/fastlane/readme.md replaces assets/editorextension/fastlane/readme.md for guid 57bcc2c9ec94043acac7663167683365 
-*** 57bcc2c9ec94043acac7663167683365 replaces b817e929b3a1c4e8fb268a70172625a4 at path assets/build/fastlane/readme.md 
-*** assets/build/fastlane/build.log replaces assets/editorextension/fastlane/build.log for guid c768f07810bbb427eb4df9c23a529ba3 
-*** c768f07810bbb427eb4df9c23a529ba3 replaces 48d92f2787f0b4d7b93e221323c6ae3b at path assets/build/fastlane/build.log 
-*** assets/build/fastlane/report.xml replaces assets/editorextension/fastlane/report.xml for guid 073d45120de6b4949b3bde62226f38b7 
-*** 073d45120de6b4949b3bde62226f38b7 replaces 910bd0901c99a4571ae12ab32c7b198b at path assets/build/fastlane/report.xml 
-Refresh: elapses 0.018420 seconds
-Refresh: trashing asset 910bd0901c99a4571ae12ab32c7b198b
-Refresh: trashing asset 4a51ea86cadb1488889310c6efde8145
-Refresh: trashing asset 48d92f2787f0b4d7b93e221323c6ae3b
-Refresh: trashing asset b817e929b3a1c4e8fb268a70172625a4
-Refresh: trashing asset f6989cad7a6d544fbbfc8d714dc12633
-Refresh: trashing asset c93c62edda12540069082f769dc98590
-Updating Assets/Build - GUID: 2bbb8161d05164a028daa7b8f88cd28c...
- done. [Time: 137.585209 ms] 
-Updating Assets/Build/BuildProject.cs - GUID: 81af2011c6b0b4f1fa98659ad80daecf...
- done. [Time: 74.840062 ms] 
-- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-Symbols will be read from Temp/Assembly-CSharp.dll.mdb
-Script Module: Assembly-CSharp.dll
-Pass: 0 took 4 milliseconds
-Pass: 1 took 5 milliseconds
 Reloading assemblies after script compilation.
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.45 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
-Initializing Unity.PackageManager (PackageManager) v2017.2.1 for Unity v2017.2.1p2
-Registering platform support modules:
-Registered platform support modules in: 0.052591s.
-Native extension for OSXStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.4 MB.
-System memory in use after: 196.5 MB.
-
-Unloading 143 unused Assets to reduce memory usage. Loaded Objects now: 772.
-Total: 3.384730 ms (FindLiveObjects: 0.558875 ms CreateObjectMapping: 0.031550 ms MarkObjects: 2.638404 ms  DeleteObjects: 0.146121 ms)
-
-Updating Assets/Build/fastlane - GUID: e7c55b9c8ffb24610b0c0379a48664b7...
- done. [Time: 41.246475 ms] 
-Updating Assets/Build/fastlane/README.md - GUID: 57bcc2c9ec94043acac7663167683365...
- done. [Time: 56.422768 ms] 
-Updating Assets/Build/fastlane/Fastfile - GUID: bdf464c090f654ae28abc902a6d4f9bc...
- done. [Time: 1.986900 ms] 
-Updating Assets/Build/fastlane/build.log - GUID: c768f07810bbb427eb4df9c23a529ba3...
- done. [Time: 43.674969 ms] 
-Updating Assets/Build/BuildProject.cs - GUID: 81af2011c6b0b4f1fa98659ad80daecf...
- done. [Time: 55.344699 ms] 
-- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-Symbols will be read from Temp/Assembly-CSharp.dll.mdb
-Script Module: Assembly-CSharp.dll
-Pass: 0 took 4 milliseconds
-Pass: 1 took 6 milliseconds
-Reloading assemblies after script compilation.
-Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 21.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.836 seconds
-Initializing Unity.PackageManager (PackageManager) v2017.2.1 for Unity v2017.2.1p2
-Registering platform support modules:
-Registered platform support modules in: 0.048055s.
-Native extension for OSXStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Updating Assets/Build/fastlane/report.xml - GUID: 073d45120de6b4949b3bde62226f38b7...
- done. [Time: 31.680409 ms] 
-Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.45 ms.
 
------ Total AssetImport time: 4.879065s, AssetImport time: 4.855443s, Asset hashing: 0.003876s [24.0 KB, 6.054466 mb/s]
+----- Total AssetImport time: 0.073657s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
-Refresh: detecting if any assets need to be imported or removed ... 
-Hashing assets ... 0.000 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.020 MB)
-  hash: 0.000 seconds
------ Compute hash(es) for 1 asset(s).
-
-Refresh: elapses 0.051724 seconds
-Updating Assets/Build/fastlane/build.log - GUID: c768f07810bbb427eb4df9c23a529ba3...
- done. [Time: 4.859609 ms] 
-Refreshing native plugins compatible for Editor in 0.45 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
-
------ Total AssetImport time: 0.092280s, AssetImport time: 0.046999s, Asset hashing: 0.000248s [197 B, 0.759071 mb/s]
-
-Determining assets that need to be reimported for target platform ... 0.028319 seconds.
-
-Hashing assets ... 0.000 seconds
-  file open: 0.000 seconds (0 files)
-  file read: 0.000 seconds (0.000 MB)
-  hash: 0.000 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
-
------ Total AssetImport time: 0.029733s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-Warming cache for 139 main assets: 0.000198 seconds elapsed
-Initializing Unity extensions:
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'  GUID: c768acbc9cf24d398488bb4c93b91288
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
- '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 74 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 207.5 MB.
-System memory in use after: 207.5 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 824.
-Total: 1.370897 ms (FindLiveObjects: 0.133644 ms CreateObjectMapping: 0.033961 ms MarkObjects: 1.174836 ms  DeleteObjects: 0.027292 ms)
-
-find scene: /Users/sunyuli/Dev/UnityProjects/LearnUnity01/Assets/Scene/main.unity
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-BuildProject:findAllScenes() (at Assets/Build/BuildProject.cs:30)
-BuildProject:BuildAndroidAdhoc() (at Assets/Build/BuildProject.cs:59)
- 
-(Filename: Assets/Build/BuildProject.cs Line: 30)
-
-DisplayProgressbar: Checking prerequisutes
-Android PostProcess task "Checking prerequisutes" took 1.704 ms
-DisplayProgressbar: Detecting Android SDK
-AndroidSDKTools:
-
-	root          : /Users/sunyuli/Library/Android/sdk
-	tools         : /Users/sunyuli/Library/Android/sdk/tools
-	platform-tools: /Users/sunyuli/Library/Android/sdk/platform-tools
-	build-tools   : /Users/sunyuli/Library/Android/sdk/build-tools/27.0.0
-
-	adb      : /Users/sunyuli/Library/Android/sdk/platform-tools/adb
-	aapt     : /Users/sunyuli/Library/Android/sdk/build-tools/27.0.0/aapt
-	zipalign : /Users/sunyuli/Library/Android/sdk/build-tools/27.0.0/zipalign
-
-AndroidJavaTools:
-	java     : /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/bin/java
-
-Android PostProcess task "Detecting Android SDK" took 3208.584 ms
-Android PostProcess task "Trying to find a suitable Android device" took 0.197 ms
-BuildPlayer: start building target 13
-- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-Symbols will be read from Temp/Assembly-CSharp.dll.mdb
-Script Module: Assembly-CSharp.dll
-Pass: 0 took 0 milliseconds
-Pass: 1 took 0 milliseconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
-DisplayProgressbar: Building Player
-
-Packing sprites:
-[     41 MB ]- Skipping packing - Sprite Packer (Legacy) is off.
-[     41 MB ]Opening scene 'Assets/Scene/main.unity'
-Load scene 'Assets/Scene/main.unity' time: 0.043443 ms 
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 7000034d1000 -> priority: 1 
-System memory in use before: 239.7 MB.
-System memory in use after: 239.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2837.
-Total: 10.713444 ms (FindLiveObjects: 0.513543 ms CreateObjectMapping: 0.122924 ms MarkObjects: 9.181419 ms  DeleteObjects: 0.893487 ms)
-
-[00:00:00] Enlighten: Precompute started.
-Launched and connected shader compiler UnityShaderCompiler after 0.62 seconds
-[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.78s wallclock)
-[00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-[00:00:00] Enlighten: Precompute took 0.798179 seconds.
-Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
-[00:00:00] Enlighten: Bake started.
-[PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
-[PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
-[PathTracer] Lightmap reset.
-[PathTracer][LP] Light probes reset.
-[PathTracer] building lightmap data asset.
-[00:00:01] Enlighten: Finished 1 Bake Runtime job (0.15s execute, 0.00s integrate, 0.15s wallclock)
-[00:00:01] Enlighten: Bake took 0.149968 seconds.
-[00:00:01] Enlighten: Reflection Probes started.
-[00:00:01] Enlighten: Finished 1 Ambient Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
-WARNING: 289040096 format is not supported, decompressing texture
-[00:00:01] Enlighten: Finished 1 Reflection Probes job (0.01s execute, 0.00s integrate, 0.01s wallclock)
-
-
-Mono dependencies included in the build
-Dependency assembly - Mono.Security.dll
-Dependency assembly - System.Core.dll
-Dependency assembly - System.dll
-Dependency assembly - mscorlib.dll
-Dependency assembly - UnityEngine.UI.dll
-Dependency assembly - UnityEngine.Networking.dll
-Dependency assembly - UnityEngine.Timeline.dll
-Dependency assembly - UnityEngine.SpatialTracking.dll
-Dependency assembly - Assembly-CSharp.dll
-
-DisplayProgressbar: Fetching assembly references
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 243.8 MB.
-System memory in use after: 243.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2824.
-Total: 9.798918 ms (FindLiveObjects: 0.297817 ms CreateObjectMapping: 0.044582 ms MarkObjects: 8.471163 ms  DeleteObjects: 0.983758 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 243.5 MB.
-System memory in use after: 243.7 MB.
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2836.
-Total: 8.069333 ms (FindLiveObjects: 0.296923 ms CreateObjectMapping: 0.051662 ms MarkObjects: 7.712467 ms  DeleteObjects: 0.006765 ms)
-
-WARNING: Shader Unsupported: 'VR/SpatialMapping/Wireframe' - Pass '' has no vertex shader
-WARNING: Shader Unsupported: 'VR/SpatialMapping/Wireframe' - Setting to default shader.
-WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
-WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 267.0 MB.
-System memory in use after: 243.9 MB.
-
-Unloading 138 unused Assets to reduce memory usage. Loaded Objects now: 2823.
-Total: 24.333776 ms (FindLiveObjects: 0.265045 ms CreateObjectMapping: 0.036995 ms MarkObjects: 7.130698 ms  DeleteObjects: 16.899674 ms)
-
-DisplayProgressbar: Building Player
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-DisplayProgressbar: Creating staging area
-Android PostProcess task "Creating staging area" took 2.511 ms
-DisplayProgressbar: Generating Build Id
-Android PostProcess task "Generating Build Id" took 0.533 ms
-DisplayProgressbar: Preparing Unity resources
-Android PostProcess task "Preparing Unity resources" took 11.176 ms
-DisplayProgressbar: Splitting assets
-Android PostProcess task "Splitting assets" took 5.257 ms
-Android PostProcess task "Processing OBB assets" took 0.231 ms
-DisplayProgressbar: Preparing Unity libraries
-Android PostProcess task "Preparing Unity libraries" took 10.998 ms
-DisplayProgressbar: Processing resources
-Android PostProcess task "Processing resources" took 0.433 ms
-DisplayProgressbar: Preparing APK resources
-Android PostProcess task "Preparing APK resources" took 13.028 ms
-DisplayProgressbar: Processing plugins
-Android PostProcess task "Processing plugins" took 73.875 ms
-DisplayProgressbar: Processing AAR plugins
-Android PostProcess task "Processing AAR plugins" took 0.948 ms
-DisplayProgressbar: Processing Android libraries
-Android PostProcess task "Processing Android libraries" took 0.678 ms
-DisplayProgressbar: Creating Android manifest
-DisplayProgressbar: Fetching assembly references
-Android PostProcess task "Creating Android manifest" took 618.279 ms
-DisplayProgressbar: Compiling resources
-Android PostProcess task "Compiling resources" took 214.812 ms
-DisplayProgressbar: Verifying Android libraries
-Android PostProcess task "Verifying Android libraries" took 2.279 ms
-DisplayProgressbar: Building DEX
-Android PostProcess task "Building DEX" took 1.459 ms
-Android PostProcess task "IL2CPP" took 0.669 ms
-Android PostProcess task "Zipping symbols" took 0.431 ms
-Android PostProcess task "Performance Reporting Symbol Upload" took 0.211 ms
-DisplayProgressbar: Preparing streaming assets
-Android PostProcess task "Preparing streaming assets" took 1.178 ms
-Android PostProcess task "fastzip" took 0.125 ms
-DisplayProgressbar: AAPT: Compiling all assets into one archive
-Android PostProcess task "AAPT: Compiling all assets into one archive" took 1516.083 ms
-DisplayProgressbar: Creating APK package
-Android PostProcess task "Creating APK package" took 9188.353 ms
-DisplayProgressbar: Moving output package
-Android PostProcess task "Moving output package" took 6.506 ms
-
--------------------------------------------------------------------------------
-Build Report
-Uncompressed usage by category:
-Textures      0.0 kb	 0.0% 
-Meshes        0.0 kb	 0.0% 
-Animations    0.0 kb	 0.0% 
-Sounds        0.0 kb	 0.0% 
-Shaders       22.1 kb	 0.5% 
-Other Assets  1.1 kb	 0.0% 
-Levels        69.3 kb	 1.5% 
-Scripts       621.2 kb	 13.1% 
-Included DLLs 3.9 mb	 84.7% 
-File headers  11.8 kb	 0.2% 
-Complete size 4.6 mb	 100.0% 
-
-Used Assets and files from the Resources folder, sorted by uncompressed size:
- 22.6 kb	 0.5% Resources/unity_builtin_extra
- 4.1 kb	 0.1% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
- 4.1 kb	 0.1% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
- 3.8 kb	 0.1% /Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/iOS/Vuforia.UnityExtensions.dll
- 3.8 kb	 0.1% /Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/WindowsStoreApps/Vuforia.UnityExtensions.dll
- 3.8 kb	 0.1% /Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll
- 3.8 kb	 0.1% /Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/Android/Vuforia.UnityExtensions.dll
- 1.8 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
- 1.8 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll
- 1.5 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
- 1.5 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
- 0.7 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
- 0.7 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll
- 0.4 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
- 0.3 kb	 0.0% Packages/com.unity.ads@1.0.7/UnityEngine.Advertisements.dll
- 0.1 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
- 0.1 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll
- 0.1 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
- 0.1 kb	 0.0% /Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll
- 0.1 kb	 0.0% Packages/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll
- 0.1 kb	 0.0% Assets/Build/BuildProject.cs
--------------------------------------------------------------------------------
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 245.2 MB.
-System memory in use after: 245.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2838.
-Total: 10.934504 ms (FindLiveObjects: 0.377824 ms CreateObjectMapping: 0.110509 ms MarkObjects: 9.270322 ms  DeleteObjects: 1.174006 ms)
-
-Load scene 'Temp/__Backupscenes/0.backup' time: 0.021121 ms 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-[00:00:00] Enlighten: Reflection Probes took 14.312399 seconds. Cancelled, so not done yet.
-System memory in use before: 244.8 MB.
-System memory in use after: 245.0 MB.
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2828.
-Total: 6.784114 ms (FindLiveObjects: 0.261254 ms CreateObjectMapping: 0.030162 ms MarkObjects: 6.480917 ms  DeleteObjects: 0.010722 ms)
-
-
-*** Completed 'Build.Player.AndroidPlayer' in 20 seconds (19999 ms)
-
-- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-Symbols will be read from Temp/Assembly-CSharp.dll.mdb
-Script Module: Assembly-CSharp.dll
-Pass: 0 took 2 milliseconds
-Pass: 1 took 2 milliseconds
-Reloading assemblies after script compilation.
-Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
-Mono: successfully reloaded assembly
-Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.58 ms.
-
------ Total AssetImport time: 0.077640s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-- Completed reload, in  1.044 seconds
+- Completed reload, in  1.032 seconds
 Initializing Unity.PackageManager (PackageManager) v2017.2.1 for Unity v2017.2.1p2
 Registering platform support modules:
-Registered platform support modules in: 0.044579s.
+Registered platform support modules in: 0.043699s.
 Native extension for OSXStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -653,30 +679,30 @@ Batchmode quit successfully invoked - shutting down!
 Refresh: detecting if any assets need to be imported or removed ... 
 Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
-  file read: 0.001 seconds (0.038 MB)
+  file read: 0.001 seconds (0.050 MB)
   hash: 0.000 seconds
 ----- Compute hash(es) for 1 asset(s).
 
-Refresh: elapses 0.055180 seconds
+Refresh: elapses 0.056273 seconds
 Updating Assets/Build/fastlane/build.log - GUID: c768f07810bbb427eb4df9c23a529ba3...
- done. [Time: 35.210845 ms] 
+ done. [Time: 30.853474 ms] 
 Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.46 ms.
+Preloading 1 native plugins for Editor in 0.39 ms.
 
------ Total AssetImport time: 0.138572s, AssetImport time: 0.086155s, Asset hashing: 0.001340s [38.5 KB, 28.076736 mb/s]
+----- Total AssetImport time: 0.129981s, AssetImport time: 0.077201s, Asset hashing: 0.000800s [50.8 KB, 62.064278 mb/s]
 
 Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
- done. [Time: 3.136259 ms] 
+ done. [Time: 1.933924 ms] 
 Refreshing native plugins compatible for Editor in 0.41 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
+Preloading 1 native plugins for Editor in 0.39 ms.
 
------ Total AssetImport time: 0.087693s, AssetImport time: 0.029921s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.093899s, AssetImport time: 0.036364s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.051453 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.045947 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
 
------ Total AssetImport time: 0.046312s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.043087s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono

@@ -61,33 +61,11 @@ public class BuildProject : MonoBehaviour {
 		Process.Start(@finalpath);
 	}
 
-	[MenuItem("Build/iOS/adhoc")]
-	public static void BuildIOSAdhoc() {
-		var rootdir = Directory.GetCurrentDirectory ();
-		var outpath = Path.Combine (rootdir, outputPath);
-		var projpath = Path.Combine (outpath, "ios_adhoc/Unity-iPhone.xcodeproj");
-		var archpath = Path.Combine (outpath, "ios_adhoc/Unity-iPhone.xcarchive");
-
+	[MenuItem("Build/iOS")]
+	public static void BuildIOS() {
 		BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
 		buildPlayerOptions.scenes = findAllScenes();
-		buildPlayerOptions.locationPathName = outputPath + "/ios_adhoc";
-		buildPlayerOptions.target = BuildTarget.iOS;
-		buildPlayerOptions.options = BuildOptions.None;
-		BuildPipeline.BuildPlayer(buildPlayerOptions);
-
-		var dir = outpath+"/ios_adhoc";
-		var cmd = "xcodebuild -scheme Unity-iPhone archive -archivePath Unity-iPhone.xcarchive CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=''";
-		debugLog("command dir: " + dir);
-		debugLog("command: " + cmd);
-		runBash(cmd, dir);
-		debugLog("please ignore the exception and wait until xcarchive generated");
-	}
-
-	[MenuItem("Build/iOS/store")]
-	public static void BuildIOSStore() {
-		BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
-		buildPlayerOptions.scenes = findAllScenes();
-		buildPlayerOptions.locationPathName = outputPath + "/ios_store";
+		buildPlayerOptions.locationPathName = outputPath + "/Xcode";
 		buildPlayerOptions.target = BuildTarget.iOS;
 		buildPlayerOptions.options = BuildOptions.None;
 		BuildPipeline.BuildPlayer(buildPlayerOptions);

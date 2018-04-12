@@ -1,21 +1,55 @@
 
-
 default_platform(:ios)
 
-path = File.expand_path(File.dirname(__FILE__))+"/../../../"
-projpath = path+"output/ios_adhoc/Unity-iPhone.xcodeproj"
+root_path = File.expand_path(File.dirname(__FILE__))+"/../../../"
+output_path = root_path + "Output"
+xcode_path = output_path + "/Xcode"
+
+def unityExecute(path, exe)
 unitypath = "/Applications/Unity/Unity.app/Contents/MacOS/Unity"
+sh("'#{unitypath}' -batchmode -quit \
+-logFile ./build.log \
+-projectPath '#{path}' \
+-buildTarget ios \
+-executeMethod '#{exe}'")
+end
+
+def xcodeArchiveNoSign(path)
+sh("cd '#{path}' && \
+xcodebuild -scheme Unity-iPhone \
+archive -archivePath Unity-iPhone.xcarchive \
+CODE_SIGNING_REQUIRED=NO \
+CODE_SIGN_IDENTITY=''")
+end
 
 platform :ios do
 
+	before_all do |lane|
+		puts("root_path:" + root_path)
+		puts("output_path:" + root_path)
+		puts("xcode_path:" + root_path)
+	end
+
+	lane :export do
+		sh("rm -rf #{xcode_path}")
+		unityExecute(root_path, "BuildProject.BuildIOS")
+	end
+
+	lane :archive do
+		xcodeArchiveNoSign(xcode_path)
+	end
+
+	lane :nosign do
+		export
+		archive
+	end
+
 	lane :adhoc do
-	    sh("'#{unitypath}' -batchmode -quit -logFile ./build.log -projectPath '#{path}' -buildTarget ios -executeMethod BuildProject.BuildIOSAdhoc")
-	    gym(project: projpath)
+	    #gym(project: projpath)
 	end
 
 	lane :store do
-	    sh("'#{unitypath}' -batchmode -quit -logFile ./build.log -projectPath '#{path}' -buildTarget ios -executeMethod BuildProject.BuildIOSStore")
-	    gym(project: projpath)
+	    #gym(project: projpath)
 	end
 
 end
@@ -23,11 +57,11 @@ end
 platform :android do
 
 	lane :adhoc do
-	    sh("'#{unitypath}' -batchmode -quit -logFile ./build.log -projectPath '#{path}' -buildTarget android -executeMethod BuildProject.BuildAndroidAdhoc")
+		unityExecute(root_path, "BuildProject.BuildAndroidAdhoc")
 	end
 
 	lane :store do
-	    sh("'#{unitypath}' -batchmode -quit -logFile ./build.log -projectPath '#{path}' -buildTarget android -executeMethod BuildProject.BuildAndroidAdhoc")
+		unityExecute(root_path, "BuildProject.BuildAndroidStore")
 	end
 
 end

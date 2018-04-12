@@ -16,6 +16,21 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
+### ios export
+```
+fastlane ios export
+```
+
+### ios archive
+```
+fastlane ios archive
+```
+
+### ios nosign
+```
+fastlane ios nosign
+```
+
 ### ios adhoc
 ```
 fastlane ios adhoc
