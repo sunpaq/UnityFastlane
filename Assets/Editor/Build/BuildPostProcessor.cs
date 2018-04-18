@@ -33,9 +33,9 @@ public static class BuildPostProcess
 
 	private static void AddFrameworks(PBXProject project, string targetGUID)
 	{
-		project.AddFrameworkToProject (project, "WebKit.framework", false);
-		project.AddFrameworkToProject (project, "Photos.framework", false);
-		project.AddFrameworkToProject (project, "PhotosUI.framework", false);
+		project.AddFrameworkToProject (targetGUID, "WebKit.framework", false);
+		project.AddFrameworkToProject (targetGUID, "Photos.framework", false);
+		project.AddFrameworkToProject (targetGUID, "PhotosUI.framework", false);
 	}
 }
 
